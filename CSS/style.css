@@ -1,0 +1,174 @@
+
+body{
+    background-color:#A65D33;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.padre1{ 
+    background-color: #65A6BF;
+    margin: 30px;
+    height: 150px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.hijo1{
+    height: 120px;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 85px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.logo{
+    width: 150px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+.hijo2{
+    height: 80px;
+    width: 800px;
+    margin: 10px;
+    text-align: center;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.padre2{
+    height: 450px;
+    text-align: center;
+     /* border: 1px solid;  */
+    margin: 30px;
+    display: flex;
+    
+}
+
+.hijo3{
+    height: 450px;
+    width: 600px;
+    text-align: center;
+    /* border: 1px solid;  */
+    margin: 5px;
+}
+
+.hijo4{
+    height: 450px;
+    width: 700px;
+    text-align: center;
+     /* border: 1px solid;  */
+    margin: 5px; 
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hijo4-1{
+    /* border: 1px solid; */
+    height: 120px;
+    width: 155px;
+    margin: 5px;
+}
+
+.imagenes {
+    height: 120px;
+    border-radius: 20px;
+    height: 120px;
+    width: 155px;
+}
+
+.padre5{
+    background-color: #65A6BF;
+    border-radius: 40px; 
+    height: 120px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.body1{
+    display: flex;
+    
+}
+
+.parent1{
+    /* border: 3px solid; */
+    height: 800px;
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5px;
+}
+
+.hija{
+    background-color: #8C3F23;
+    border-radius: 30px;
+    margin: 5px;
+    height: 120px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobrino{
+     /* border: 1px solid;  */
+    margin: 5px;
+    width: 150px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.sobrino1{
+    border-radius: 30px;
+    height: 110px;
+    width: 150px;
+}
+
+.parent2{
+    /* border: 3px solid; */
+    height: 800px;
+    width: 700px;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    
+}
+
+.hija1{
+    /* border: 1px solid; */
+    margin: 5px;
+    width: 315px;
+    
+}
+
+.hija1-1{
+    /* border: 1px solid; */
+    margin: 5px;
+    height: 254px;
+}
+
+.sobrino2{
+     width: 303px ;
+    height: 254px;
+}
